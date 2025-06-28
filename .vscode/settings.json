@@ -1,0 +1,21 @@
+{
+    "tailwindCSS.includeLanguages": {
+    "javascript": "javascript",
+    "javascriptreact": "javascript",
+    "typescriptreact": "typescript"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "css.validate": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["entity.name.tag.tailwind"],
+        "settings": {
+          "foreground": "#38bdf8"
+        }
+      }
+    ]
+  }
+}
